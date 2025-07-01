@@ -302,3 +302,213 @@ span{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+.product-item div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.product-item div h2{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+.product-item div p{
+    font-size: 16px;
+    margin: 0;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.product-item div h3{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+ul{
+    color: #474747;
+}
+
+.product-item div h4{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    color: #F58420;
+
+}
+
+.product-item div h1{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.product-item div button{
+    width: 100%;
+    height: 38px;
+    background-color: #F58420;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+
+.bottom-section{
+    background-color: white;
+}
+
+.real-smile-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 316px;
+    gap: 20px;
+    padding: 24px 0px;
+}
+
+.real-smile-section-h1{
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.real-smile-section-p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.real-smile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    height: 231px;
+    gap: 40px;
+}
+
+.name{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #1A1A1A;
+    font-weight: 600;
+}
+
+.place{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #F58420;
+    font-weight: 400;
+}
+
+.real-smile-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 295px;
+    height: 231px;
+}
+
+.real-smile-item div{
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+}
+
+.real-smile-item img{
+    width: 295px;
+    height: 231px;
+    border-radius: 20px;
+}
+
+.our-patient-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1320px;
+    gap: 20px;
+    padding: 24px 0px;
+}
+
+.our-patient-section-h1{
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.our-patient-section-p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.our-patient-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+    gap: 24px;
+    overflow-y: auto;
+}
+
+.our-patient-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 224px;
+    gap: 8px;
+}
+
+.our-patient-item img{
+    width: 224px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.treatment{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #F58420;
+    font-weight: 600;
+}
+
+.temp-place{
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #777777;
+    font-weight: 600;
+}
+
+.patient-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+}
