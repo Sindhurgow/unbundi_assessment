@@ -470,10 +470,11 @@ ul{
 .our-patient-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 1320px;
     gap: 24px;
     overflow-y: auto;
+    margin-left: 25px;
 }
 
 .our-patient-item{
